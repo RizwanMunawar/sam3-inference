@@ -7,6 +7,8 @@ segment, and track objects using text or visual prompts such as points, boxes, a
 [SAM 2](https://github.com/facebookresearch/sam2), SAM 3 introduces the ability to exhaustively segment all instances of an open-vocabulary concept specified 
 by a short text phrase or exemplars. Unlike prior work, SAM 3 can handle a vastly larger set of open-vocabulary prompts. 
 
+https://github.com/user-attachments/assets/10f40eb1-379b-49a5-8f6f-4f3897f7851f
+
 ## Features supported (in this repo):
 
 - [Inference on image](#inference-on-image-) 🚀
