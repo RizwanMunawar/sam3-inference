@@ -1,4 +1,4 @@
-name: SAM3 Inference CI # Work in progress
+name: SAM3 Inference CI
 
 on:
   push:
@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  model_smoke:
+  inference:
     strategy:
       fail-fast: false
       matrix:
