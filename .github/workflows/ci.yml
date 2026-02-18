@@ -1,4 +1,4 @@
-name: SAM3 Inference CI
+name: SAM3 Inference CI # Work in progress
 
 on:
   push:
