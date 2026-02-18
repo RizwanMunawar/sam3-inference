@@ -43,7 +43,7 @@ jobs:
       - name: Install package + runtime deps
         shell: bash
         run: |
-          pip install -e .
+          pip install -e ".[notebooks,dev,train]"
           pip install pillow opencv-python
           pip install google-api-python-client google-auth
 
