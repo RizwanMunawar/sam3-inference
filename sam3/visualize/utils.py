@@ -93,7 +93,7 @@ def draw_box_and_masks(img_cv,
     text_thickness = max(1, line_width // 2)  # Text thickness scales with line width
 
     for i in range(total_objects):
-        color = (108, 27, 255)
+        color = get_color(i)
 
         # Draw masks first (so boxes appear on top)
         if show_masks:
